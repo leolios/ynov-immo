@@ -18,6 +18,7 @@ class RealEstateImage {
   }
 
   RealEstateImage.fromJson(Map<String, dynamic> json) {
+    // json = json['data'];
     if (json == null) return;
     id =
         json['id']
